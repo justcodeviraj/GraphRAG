@@ -1,0 +1,27 @@
+{
+  "llm_model": "gemma3:1b",
+  "embedding_model": "nomic-embed-text",
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "num_documents": 4,
+  "num_entities": 57,
+  "num_relations": 32,
+  "graph_stats": {
+    "num_nodes": 44,
+    "num_edges": 32,
+    "num_relation_types": 8,
+    "relation_types": [
+      "DAMAGES",
+      "LOCATED_IN",
+      "PROVIDES",
+      "CAUSES",
+      "RISK_FACTOR",
+      "SYMPTOM_OF",
+      "TYPE_OF",
+      "INCLUDES"
+    ],
+    "avg_degree": 1.4545454545454546,
+    "density": 0.016913319238900635,
+    "is_connected": false
+  }
+}
